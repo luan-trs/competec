@@ -4,7 +4,7 @@ public class Ex02 {
         double banana = 2.50; //A banana custa 2 reais
         
         double soma = laranja+banana;
-        double desconto = soma - soma*0.80; //Desconto de 80%
+        double desconto = soma*0.20; //Desconto de 80%
         System.out.println("Preço da laranja: R$"+laranja);
         System.out.println("Preço da banana: R$"+banana);
         System.out.println("A soma dos dois: R$"+soma);
