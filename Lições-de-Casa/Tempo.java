@@ -53,21 +53,6 @@ public class Tempo {
 			System.out.println("Aluno 1");	
 			}
 		
-		//switch (maior) {
-		//	case verdad2 > maior:
-		//		maior = verdad2;
-		//		break;
-		//	case verdad3 > maior:
-		//		maior = verdad3;
-		//		break;
-		//	case verdad4 > maior:
-		//		maior = verdad4;
-		//		break;
-		//	case verdad5 > maior:
-		//		maior = verdad5;
-		//		break;
-		//	}
-		
 		System.out.println("O maior tempo será: "+maior);
 	}
 }
