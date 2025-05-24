@@ -1,5 +1,3 @@
-package competec;
-
 import java.util.Scanner;
 
 public class Extra_Estrelas {
