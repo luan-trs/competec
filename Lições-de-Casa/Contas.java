@@ -7,14 +7,15 @@ public class Contas
         int operacao;
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Insira o primeiro número:");
+        System.out.print("Insira o primeiro número:");
         n1 = sc.nextDouble();
-        System.out.println("Insira o segundo número:");
+        System.out.print("Insira o segundo número:");
         n2 = sc.nextDouble();
         
         System.out.println("\033[32m[1] Adição\n[2] Subtração\n[3] Multiplicação\n[4] Divisão");
         System.out.println("\033[0mQual operação deseja realizar?");
         operacao = sc.nextInt();
+        sc.close();
         
         switch (operacao) {
             case 1:

@@ -22,6 +22,7 @@ public class Computadores {
 		a3 = sc.nextInt();
 		System.out.println("Alunos sala 4:");
 		a4  = sc.nextInt();
+		sc.close();
 		
 		 //Todas devem ter mais computadores que alunos
 		quantidade = c1>=a1 && c2>=a2 && c3>=a3 && c4>=a4;
@@ -33,6 +34,6 @@ public class Computadores {
 			System.out.println("HABEMUS AULA!");	
 			} else {
 			System.out.println("Fica pra próxima...");	
-				}
+			}
 	}
 }

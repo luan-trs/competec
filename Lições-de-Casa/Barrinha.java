@@ -19,6 +19,7 @@ public class Barrinha
 	    preco = sc.nextDouble();
 	    System.out.println("\nQuantas barrinhas eles irão comprar?");
 	    quantBarrinhas = sc.nextInt();
+		sc.close();
 	    totalBarrinha = preco*quantBarrinhas; //Total da compra
 	    
 	    if (totalBarrinha > totalDin) {

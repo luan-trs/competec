@@ -8,7 +8,8 @@ public class Extra_Estrelas {
 		
 		System.out.print("Número de linhas: ");
 		linhas = sc.nextInt();
-		
+		sc.close();
+
 		while (linhas >= 0) {
 			for (caracteres=linhas; caracteres!=0; caracteres--) {
 				System.out.print("*");
@@ -16,7 +17,6 @@ public class Extra_Estrelas {
 			System.out.println(); //Quanto uma linha de "*" é escrita, pula para a próxima linha
 			linhas--;
 		}
-		sc.close();
 	}
 
 }

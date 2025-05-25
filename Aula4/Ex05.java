@@ -10,6 +10,7 @@ public class Ex05 {
 		while (!login.equals(senha)) { //Caso as strings sejam diferentes
 		System.out.print("Senha: ");
 		login = sc.nextLine();
+		sc.close();
 		
 		if (login.equals(senha)) {
 			break;
@@ -19,7 +20,7 @@ public class Ex05 {
 		}
 		
 		}
-		sc.close();
+		
 		System.out.println("LOGIN CONCLUíDO COM SUCESSO!");
 	}
 

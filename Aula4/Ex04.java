@@ -5,9 +5,9 @@ public class Ex04 {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Digite um número:");
+        System.out.print("Digite um número:");
         int num = sc.nextInt();
-        System.out.println();
+        sc.close();
         
         for (int i=0; i<=num; i++) {
             if (i%2 != 0) {

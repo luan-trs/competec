@@ -6,6 +6,7 @@ public class Ex03 {
         
         System.out.println("Digite um número:");
         int usuario = sc.nextInt();
+        sc.close();
         
         for (int i = 0; i<=10; i++) {
             int result = i*usuario; //resultado das multiplicações

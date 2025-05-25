@@ -27,6 +27,7 @@ public class Tempo {
 		
 		System.out.println("\nQuanto tempo o quinto aluno demorará?");
 		t5 = sc.nextInt();
+		sc.close();
 		verdad5 = t5 - (t1*2);
 		
 		maior = verdad1;

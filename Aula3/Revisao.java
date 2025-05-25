@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-public class Ex01
+public class Revisao
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		double selecionado = 0;
-		String bebida = "";
 
 		System.out.println("[1] Hamburguer | R$9,99");
 		System.out.println("[2] Batata frita | R$7,00");
@@ -43,6 +42,7 @@ public class Ex01
 
 		System.out.println("Quanto dinheiro você tem?");
 		double carteira = sc.nextDouble();
+		sc.close();
 
 		if (carteira < carrinho) {
 			System.out.println("\033[31mSALDO INSUFICIENTE");
