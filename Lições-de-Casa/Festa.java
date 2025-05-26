@@ -12,6 +12,7 @@ public class Festa {
 		l = sc.nextDouble();
 		System.out.println("Total de pessoas:");
 		pessoas = sc.nextInt();
+		sc.close();
 		
 		area = c*l;
 		pessoas = pessoas*2; //Ocupam 2m quadrados
