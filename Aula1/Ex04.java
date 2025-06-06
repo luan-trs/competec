@@ -1,4 +1,4 @@
-public class Ex02 {
+public class Ex04 {
 	public static void main(String[] args) {
         double laranja = 5.20; //A laranja custa 5 reais
         double banana = 2.50; //A banana custa 2 reais
