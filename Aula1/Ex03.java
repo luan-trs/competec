@@ -1,3 +1,4 @@
+public class Ex03 {
 	public static void main(String[] args) {
 		char primeiraLetra = 'L'; //Primeira letra do meu nome
 		System.out.println("A primeira letra do meu nome é a letra " + primeiraLetra);
