@@ -5,8 +5,8 @@ public class TabelaNotas {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        int lin = 3;
-        int col = 30;
+        int lin = 3; //Matérias
+        int col = 30; //Alunos
         int[][] tabela = new int[lin][col]; //3 matérias (linhas) e 30 alunos (colunas)
         
         for (int i=0; i<lin; i++) {
